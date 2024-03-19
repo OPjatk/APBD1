@@ -16,10 +16,10 @@ class Calc
     public static double GetMax(int[] numbers)
     {
         int max = numbers[0];
-        foreach (var num in numbers)
+        foreach (var numb in numbers)
         {
-            if (num > max)
-                max = num;
+            if (numb > max)
+                max = numb;
         }
         return max;
     }
