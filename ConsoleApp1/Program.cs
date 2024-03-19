@@ -1,4 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("My name is Sasha!");
-Console.WriteLine("I live in Warszaw and I am a PJATK student");
+class Calc
+{
+    public static double GetAverage(int[] numbers)
+    {
+        if (numbers.Length == 0)
+            return 0;
+ 
+        double sum = 0;
+        foreach (var coolNameMaster in numbers)
+        {
+            sum += coolNameMaster;
+        }
+        return sum / numbers.Length;
+    }
+}
