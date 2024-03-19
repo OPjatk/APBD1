@@ -15,12 +15,12 @@ class Calc
     }
     public static double GetMax(int[] numbers)
     {
-        int max = numbers[0];
+        int maxi = numbers[0];
         foreach (var num in numbers)
         {
-            if (num > max)
-                max = num;
+            if (num > maxi)
+                maxi = num;
         }
-        return max;
+        return maxi;
     }
 }
